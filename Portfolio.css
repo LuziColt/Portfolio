@@ -1,0 +1,75 @@
+.navi {background-color: black}
+
+.navi a {
+  color: silver;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 50px;
+}
+
+.navi a:hover {
+  background-color: #B64847;;
+  color: black;
+}
+
+.navi a.active {
+  color: silver;
+}
+
+
+body, html {
+    height: 100%;
+}
+
+
+.hero-image {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("IT.jpg");
+                height: 100%;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: absolut;
+}
+
+
+.hero-text {
+  text-align: right;
+  position: absolute;
+  top: 40%;
+  left: 90%;
+  transform: translate(-70%, -30%);
+  color: white;
+  font-size: 50px;
+}
+
+
+.about-section {
+  background-color: #293036;
+  padding: 100px;
+  height: 1000px;
+  text-align: center;
+  color: white;
+  font-size: 50px;
+}
+
+.my-work {
+  background-image: url("covers.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolut;
+  padding: 100px;
+  height: 1000px;
+  text-align: right;
+  background-color: black;
+  color: white;
+  font-size: 50px;
+}
+
+a { text-decoration: none;
+    color: #B64847;
+    font-family: Courier New;
+      font-size: 60px;
+ }
+
